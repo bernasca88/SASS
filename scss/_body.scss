@@ -1,0 +1,23 @@
+
+body{ 
+    font-family: 'Barlow Condensed', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "marcaPadre marcaPadre marcaPadre marcaPadre"
+    "contUno contUno contUno contUno"
+    "contDos contDos contDos contDos"
+    "contTres contTres contTres contTres "
+    "footer footer footer footer";
+} 
+
+
+.body2 { 
+    font-family: 'Barlow Condensed', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "marcaPadre marcaPadre marcaPadre marcaPadre"
+    "formulario formulario formulario formulario"
+    "formulario formulario formulario formulario"
+    "footer footer footer footer";
+} 
+

@@ -1,0 +1,27 @@
+.contUno{
+    margin: 20px;
+    grid-area: contUno;
+    padding: 0px 30px 0px 30px;
+    line-height: 3;
+    background: linear-gradient(to right, beige, #F2EEAC);
+    opacity: 90%;
+    img{
+        float: left;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    }
+
+.contDos{      
+    margin: 20px;
+    grid-area: contDos;
+    padding: 0px 30px 0px 30px;
+    line-height: 3;
+    background: linear-gradient(to left, beige, #F2EEAC);
+    opacity: 90%;
+    img{ 
+        float:right;  
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    }

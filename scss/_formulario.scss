@@ -1,0 +1,53 @@
+.formulario {
+
+    grid-area: formulario;
+    width: 450px;
+    background: beige;
+    opacity: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #F2EEAC;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    input, textarea {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 17px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: #F2EEAC;
+        }
+    
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 90%;
+    }
+    
+    #envio {
+        background-color:#F2EEAC;
+        & :hover  {
+            cursor: pointer;
+        }
+    }
+    
+    
+    @media ( max-width: 480px) {
+        .formulario {
+            
+            width: 100%;
+        }
+    
+        .contUno img {
+            width:100%x;
+        }
+    }
+
+}

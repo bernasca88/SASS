@@ -1,0 +1,36 @@
+.contTres{
+    grid-area: contTres;
+    
+    .fondoMediaUno{
+        background-color: beige;
+        margin: 20px;
+        padding: 0px 30px 0px 30px;
+        opacity: 90%;
+        .h2Elec{ text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .elementos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+    .fondoMediaDos{
+        background-color: beige;
+        margin: 20px;
+        padding: 0px 30px 0px 30px;
+        opacity: 90%;
+        .h2Elec{ text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .elementos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+}

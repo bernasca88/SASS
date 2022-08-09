@@ -1,0 +1,33 @@
+header {
+    grid-area: marcaPadre;
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navColor {
+        /* NO ME TOMA EL GRADIENTE!!!!!!! */
+        background: linear-gradient(to bottom, beige, #f2EEAC,);
+        ul{
+            list-style: none;
+            li{
+                width: 100%;
+                height: 100%;
+                display: inline;
+                a { 
+                    color: black;
+                    padding: 0px 0px 20px 90px;
+                    text-decoration: none;
+                    justify-content: space-between;
+                    }
+            }
+        }
+    }
+}
+
+
+@media ( max-width: 900px)  {
+    nav ul li { display: none;}
+}
